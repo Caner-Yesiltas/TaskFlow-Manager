@@ -9,7 +9,7 @@ const [todos, setTodos] = useState ([])
 
   return <div className='container'  >
     <Header setTodos ={setTodos} todos={todos} /> 
-    <TodoList/>
+    <TodoList todos={todos} />
   </div>;
 }
 export default App;
