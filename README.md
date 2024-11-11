@@ -1,70 +1,108 @@
-# Getting Started with Create React App
+# TaskFlow Manager 🚀
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+  <h2>
+    👉 <a href="https://task-flow-manager.vercel.app/">Live Demo</a> 👈
+  </h2>
+</div>
 
-## Available Scripts
+<div align="center">
+  <img src="./assets/demo.gif" alt="TaskFlow Manager Demo" width="800"/>
+</div>
 
-In the project directory, you can run:
+## 📌 About The Project
 
-### `yarn start`
+TaskFlow Manager is a modern task management application built with React and Bootstrap. It helps users organize their daily tasks with a clean, intuitive interface.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### ✨ Key Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- ➕ Create new tasks with unique UUIDs
+- ✅ Mark tasks as complete/incomplete with double-click
+- 🗑️ Delete tasks instantly
+- 💾 Persistent storage using localStorage
+- 🎨 Clean and responsive Bootstrap design
+- ❄️ Daily task list with winter theme (☃️)
 
-### `yarn test`
+### 🛠️ Built With
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [React](https://reactjs.org/)
+- [React Bootstrap](https://react-bootstrap.github.io/)
+- [UUID](https://github.com/uuidjs/uuid)
+- LocalStorage API
+- CSS3
 
-### `yarn build`
+## 🚀 Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/task-flow-manager.git
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Navigate to project directory
+cd task-flow-manager
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Install dependencies
+npm install
 
-### `yarn eject`
+# Start the development server
+npm start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 💻 Project Structure
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+src/
+├── components/
+│   ├── Header.js    # Task input and addition
+│   └── TodoList.js  # Task display and management
+├── styles/
+│   └── App.css
+└── App.js          # Main application logic
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🔍 Core Functionality
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Task Addition**: Users can add new tasks with automatic UUID generation
+- **Task Toggle**: Double-click to toggle task completion status
+- **Task Deletion**: Remove tasks with a single click on the trash icon
+- **Data Persistence**: Tasks are saved in localStorage
+- **Input Validation**: Empty tasks are prevented with input validation
 
-## Learn More
+## 🎯 Component Details
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Header Component
+- Task input field with Bootstrap styling
+- Disabled button state for empty inputs
+- Clean and centered design
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### TodoList Component
+- Responsive list layout
+- Visual completion indicators
+- Interactive delete buttons
+- Winter-themed heading (☃️)
 
-### Code Splitting
+## 📱 Responsive Design
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Centered content layout
+- Mobile-friendly interface
+- Bootstrap grid system
+- Adaptive input group sizing
 
-### Analyzing the Bundle Size
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Contributions make the open source community an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-### Making a Progressive Web App
+## 📄 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Distributed under the MIT License. See `LICENSE` for more information.
 
-### Advanced Configuration
+## 📫 Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Caner Yesiltas - caneryesiltas1@gmail.com
 
-### Deployment
+Project Link: [https://vercel.com/caner-yesiltas-projects/task-flow-manager](https://vercel.com/caner-yesiltas-projects/task-flow-manager)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<div align="center">
+  Made with ❤️ by Caner Yesiltas
+</div>
