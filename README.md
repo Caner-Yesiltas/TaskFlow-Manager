@@ -35,7 +35,7 @@ TaskFlow Manager is a modern task management application built with React and Bo
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/task-flow-manager.git
+git clone https://github.com/caneryesiltas/task-flow-manager.git
 
 # Navigate to project directory
 cd task-flow-manager
