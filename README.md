@@ -99,7 +99,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Caner Yesiltas - caneryesiltas1@gmail.com
 
-Project Link: [https://vercel.com/caner-yesiltas-projects/task-flow-manager](https://vercel.com/caner-yesiltas-projects/task-flow-manager)
+Project Link: [https://task-flow-manager.vercel.app/](https://task-flow-manager.vercel.app/)
 
 ---
 
