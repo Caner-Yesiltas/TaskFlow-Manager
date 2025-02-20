@@ -109,5 +109,5 @@ Project Link: [https://task-flow-manager.vercel.app/](https://task-flow-manager.
 ---
 
 <div align="center">
-  Made with ❤️ by Caner Yesiltas
+  Made with 🚀 by Caner Yesiltas
 </div>
